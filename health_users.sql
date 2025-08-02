@@ -5,3 +5,4 @@ create table users(user_id int, fullname varchar(100), age int, user_role enum('
 select * from users;
 desc users;
 
+alter table users add constraint PK1 primary key (user_id);
